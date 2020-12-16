@@ -1,23 +1,25 @@
-                   # Test 5  
-  
+                   # Test 6 
+    
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
   ## Description
-    Test 5  
+    Test 6  
   
   ## Usage
-    Test 5
+    Test 6
+
+  ## License
+    This Project uses the GNU GPLv3 License
+           https://www.gnu.org/licenses/gpl-3.0
     
   ## Install
-    Test 5   
+    Test 6   
     
-  ## License
-     License: MIT
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-  
   ## How to contribute
-    Test 5
+    Test 6
     
   ## Questions?
-    Test 5
-    Test 5
+    Test 6
+    Test 6
 
   
