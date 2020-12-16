@@ -49,15 +49,27 @@ const userPrompt = () =>{
             name: 'email',
             message: 'Please enter your email so you can be reached by those who wish to contribute but have a question!'
         },
-
-    ])
+      ])
+      
 }
+
+
 
 // function to initialize program
 init = async () => {
     console.log('hi');
     try{
         const answers = await userPrompt();
+
+        if(answers.license === 'MIT'){
+          answers.license = MIT;
+        } 
+        else if( answers.license === 'GNU'){
+          answers.license = GNU;
+        }
+        else if( answers.license === 'Apache'){
+          answers.license = Apache;
+        }
         
         const readmeText = generateMD(answers);
 
@@ -72,3 +84,14 @@ init = async () => {
 
 // function call to initialize program
 init();
+
+
+// Creating Variables to Store License Text
+const MIT = ` License: MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) `
+
+const Apache = `License
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+
+const GNU = `License: GPL v3
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
