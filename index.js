@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
+const generateMD = require('./utils/generateMarkdown.js')
 
 const writeFilePromise = util.promisify(fs.writeFile);
 
@@ -52,39 +53,13 @@ const userPrompt = () =>{
     ])
 }
 
-// function to write README file
-const writeToFile = (answers) => {
-return`                   # ${answers.title} 
-  
-  ## Description
-    ${answers.description}  
-  
-  ## Usage
-    ${answers.usage}
-    
-  ## Install
-    ${answers.install}   
-    
-  ## License
-    ${answers.license}
-  
-  ## How to contribute
-    ${answers.contribute}
-    
-  ## Questions?
-    ${answers.github}
-    ${answers.email}
-
-  `
-}
-
 // function to initialize program
 init = async () => {
     console.log('hi');
     try{
         const answers = await userPrompt();
         
-        const readmeText = writeToFile(answers);
+        const readmeText = generateMD(answers);
 
         await writeFilePromise('README.md', readmeText);
 
