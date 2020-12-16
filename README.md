@@ -1,25 +1,26 @@
-                   # Test 6 
-    
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# README Generator 
+     
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
   ## Description
-    Test 6  
+  stuff  
   
   ## Usage
-    Test 6
+  stuff
 
   ## License
-    This Project uses the GNU GPLv3 License
-           https://www.gnu.org/licenses/gpl-3.0
+  This project uses the MIT License 
+           https://opensource.org/licenses/MIT
+                  
     
   ## Install
-    Test 6   
+  stuff   
     
   ## How to contribute
-    Test 6
+  stuff
     
   ## Questions?
-    Test 6
-    Test 6
+  stuff
+  stuff
 
   
