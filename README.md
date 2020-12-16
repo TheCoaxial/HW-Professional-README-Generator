@@ -12,10 +12,10 @@
   | Questions?        |
 
   ## Description
-  Generates a README file through node console prompts  
+  Test  
   
   ## Usage
-  Answer Prompts 
+  TEst
 
   ## License
   This project uses the MIT License 
@@ -23,16 +23,18 @@
                   
     
   ## Install
-   Clone the repo install npm dependencies then run index.js in node consol   
+  Test   
     
   ## How to contribute
-  N/A
+  Test
 
   ## Tests required
-  N/A
+  Test
     
   ## Questions?
-  theCoaxial
-  thecoaxial@gmail.com
+  Github: https://github.com/TheCoaxial
+
+  If you have any additional questions please email me at
+  Email: thecoaxial@gmail.com
 
   
