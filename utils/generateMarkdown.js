@@ -8,7 +8,7 @@ function generateMarkdown(data) {
   | [Usage](https://github.com/TheCoaxial/HW-Professional-README-Generator#usage)                         |
   | [License](https://github.com/TheCoaxial/HW-Professional-README-Generator#license)                     |
   | [Install](https://github.com/TheCoaxial/HW-Professional-README-Generator#install)                     |
-  | [How to Contribute](https://github.com/TheCoaxial/HW-Professional-README-Generator#hot-to-contribute) |
+  | [How to Contribute](https://github.com/TheCoaxial/HW-Professional-README-Generator#how-to-contribute) |
   | [Tests](https://github.com/TheCoaxial/HW-Professional-README-Generator#tests-required)                |
   | [Questions?](https://github.com/TheCoaxial/HW-Professional-README-Generator#questions)                |
 
