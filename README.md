@@ -1,12 +1,21 @@
-# README Generator 
+# README Gen 
      
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+  |Table of Contents
+  | ----------------- |
+  | Description       |
+  | Usage             |
+  | License           |
+  | Install           |
+  | How to Contribute |
+  | Tests             |
+  | Questions?        |
 
   ## Description
-  stuff  
+  Generates a README file through node console prompts  
   
   ## Usage
-  stuff
+  Answer Prompts 
 
   ## License
   This project uses the MIT License 
@@ -14,13 +23,16 @@
                   
     
   ## Install
-  stuff   
+   Clone the repo install npm dependencies then run index.js in node consol   
     
   ## How to contribute
-  stuff
+  N/A
+
+  ## Tests required
+  N/A
     
   ## Questions?
-  stuff
-  stuff
+  theCoaxial
+  thecoaxial@gmail.com
 
   

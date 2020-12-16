@@ -41,6 +41,11 @@ const userPrompt = () =>{
         },
         {
             type: 'input',
+            name: 'tests',
+            message: 'What sort of tests would you like to be done before contribution is added?',
+        },
+        {
+            type: 'input',
             name: 'github',
             message: 'Please enter your github name',
         },
