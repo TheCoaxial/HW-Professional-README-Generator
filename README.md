@@ -12,7 +12,7 @@
   | [Questions?](https://github.com/TheCoaxial/HW-Professional-README-Generator#questions)                |
 
   ## Description
-  a program that generates a readme through a series of node prompts  
+  Generates a readme through a series of node prompts  
   
   ## Usage
   Use to create a readme quickly
@@ -23,7 +23,7 @@
                   
     
   ## Install
-  Clone the repo, install dependencies, run index.js in node console   
+  Clone Repo, Install dependencies, run index.js in node console   
     
   ## How to contribute
   NA
@@ -35,6 +35,6 @@
   Github: https://github.com/TheCoaxial
 
   If you have any additional questions please email me at
-  Email: Thecoaxial@gmail.com
+  Email: thecoaxial@gmail.com
 
   
