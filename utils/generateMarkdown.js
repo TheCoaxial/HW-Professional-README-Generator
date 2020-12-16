@@ -4,7 +4,7 @@ function generateMarkdown(data) {
     ${data.license}
   |Table of Contents
   | ----------------- |
-  | Description       |
+  | [Description](https://github.com/TheCoaxial/HW-Professional-README-Generator#description)       |
   | Usage             |
   | License           |
   | Install           |
